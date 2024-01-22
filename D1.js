@@ -56,8 +56,8 @@ console.log(x);
 */
 
 /*
-myName = "Venturi";
-console.log(myName);
+myName = "Venturi"; //non è possibie assegnare un nuovo valore a const nome perchè è stato già valorizzato
+console.log(myName); 
 const myConstname = "Venturi";
 */
 
