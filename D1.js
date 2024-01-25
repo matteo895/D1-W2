@@ -26,33 +26,29 @@ null (Nullo) = valori speciali che rappresentano assenza di valore (Valore nullo
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-let myname = "Matteo";
-console.log(myname);
+let myName = "matteo";
+console.log(myName);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-let num1 = 12;
+let num = 12;
 let num2 = 20;
-let num3 = num1 + num2;
-console.log("NUMERO 3:", num3);
-
-let risultatoaddizione = 12 + 20;
-console.log(risultatoaddizione);
+console.log(num + num2);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-/*
 let x = 12;
-console.log(x);
-*/
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
+
+const myName = "alfa";
+console.log(myName);
 */
 
 /*
@@ -65,8 +61,8 @@ const myConstname = "Venturi";
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-let risultatoSottrazione = 4 - x;
-console.log(risultatoSottrazione);
+const numero = 4;
+console.log(numero - x);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -74,26 +70,10 @@ console.log(risultatoSottrazione);
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/*creato variabili 
-
 let name1 = "john";
-let name2 = "JOHN";
-console.log(name1 !== name2);
-*/
-
-/*verifica diversità entrambe
-
-let name1 = "john";
-let name2 = "JOHN";
-let sonoDiverse = name1 !== name2;
-console.log(sonoDiverse);
-*/
-
-/*
-verican che la loro ugualinza sia true se entrambe diventano lowercase
-*/
-
-let name1 = "john";
-let name2 = "JOHN";
-let sonoUgualiLowercase = name1.toLowerCase() === name2.toLowerCase();
-console.log(sonoUgualiLowercase);
+let name2 = "John";
+console.log("name1 e name2 sono uguali:", name1 === name2);
+console.log(
+  "name1 e name2 in lowercase sono uguali:",
+  name1.toLowerCase() === name2.toLowerCase()
+);
