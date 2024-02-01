@@ -26,16 +26,16 @@ null (Nullo) = valori speciali che rappresentano assenza di valore (Valore nullo
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-let myName = "matteo";
+const myName = "matteo";
 console.log(myName);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
-
-let num = 12;
-let num2 = 20;
-console.log(num + num2);
+const a = 12;
+const b = 20;
+const somma = a + b;
+console.log(somma);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -47,22 +47,17 @@ let x = 12;
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 
-const myName = "alfa";
+const myName ="venturi"; impossibile assegnare un nuovo valore ad una variabile già dichiarta con const
 console.log(myName);
-*/
-
-/*
-myName = "Venturi"; //non è possibie assegnare un nuovo valore a const nome perchè è stato già valorizzato
-console.log(myName); 
-const myConstname = "Venturi";
 */
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-const numero = 4;
-console.log(numero - x);
+let y = 4;
+let sottrazione = y - x;
+console.log(sottrazione);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -72,8 +67,5 @@ console.log(numero - x);
 
 let name1 = "john";
 let name2 = "John";
-console.log("name1 e name2 sono uguali:", name1 === name2);
-console.log(
-  "name1 e name2 in lowercase sono uguali:",
-  name1.toLowerCase() === name2.toLowerCase()
-);
+console.log(name1 == name2);
+console.log(name1.toLowerCase == name2.toLowerCase);
